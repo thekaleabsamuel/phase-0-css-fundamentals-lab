@@ -2,4 +2,43 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center; /* Center align all text in the body */
+}
+
+
+nav {
+  text-align: center; /* Center align the navigation links */
+}
+
+nav a {
+  padding: 10px; /* Add padding to the navigation links */
+  background-color: grey; /* Change background color of navigation links */
+}
+
+#featured-property {
+  text-align: center; /* Center align the content */
+}
+
+#featured-property p {
+  width: 800px; /* Set a hard width for paragraphs */
+  margin: 20px auto; /* Center the paragraphs and add vertical space */
+}
+
+#featured-property figure {
+  margin: 0 auto; /* Center the figure */
+}
+
+#featured-property figcaption {
+  font-size: 0.8em; /* Shrink font size of the image caption */
+}
+
+#details div {
+  width: 25%;
+  float: left;
+  background-color: red;
+  text-align: center;
+}
+
+#details div:nth-child(4n+1) {
+  background-color: red; /* Set the background color of every 4th div to red */
 }
